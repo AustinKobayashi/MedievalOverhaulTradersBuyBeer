@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Medieval Overhaul Traders Buy Beer</name>
+<description>This mods allows for traders and settlements in Medieval Overhaul to purchase beer.</description>
+    <author>SlootyBetch</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>SlootyBetch.MedievalOverhaulTradersBuyBeer</packageId>
+    <loadAfter>
+		<li>DankPyon.Medieval.Overhaul</li>
+	</loadAfter>
+    <modDependencies>
+	  <li>
+		<packageId>DankPyon.Medieval.Overhaul</packageId>
+		<displayName>Medieval Overhaul</displayName>
+		<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2553700067</steamWorkshopUrl>
+	  </li>
+	</modDependencies>
+</ModMetaData>
