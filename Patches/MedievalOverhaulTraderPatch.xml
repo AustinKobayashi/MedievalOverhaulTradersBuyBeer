@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "DankPyon_Base_Medieval_Standard"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>Beer</thingDef>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "DankPyon_Caravan_Medieval_BulkGoodsMerchant"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>Beer</thingDef>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "DankPyon_Visitor_Medieval_Standard"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>Beer</thingDef>
+            </li>
+          </value>
+        </li>
+      </operations>
+  </Operation>
+</Patch>
